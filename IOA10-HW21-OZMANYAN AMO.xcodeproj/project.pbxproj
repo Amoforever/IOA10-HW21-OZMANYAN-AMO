@@ -17,6 +17,7 @@
 		CE92B7722ABA4D3D008416E9 /* Detail Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7712ABA4D3D008416E9 /* Detail Controller.swift */; };
 		CE92B7742ABA4DAB008416E9 /* Cell of Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7732ABA4DAB008416E9 /* Cell of Cards.swift */; };
 		CE92B7772ABA4E17008416E9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE92B7762ABA4E17008416E9 /* Alamofire */; };
+		CE92B7792ABA4E66008416E9 /* MainView for Card Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7782ABA4E66008416E9 /* MainView for Card Search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		CE92B76F2ABA4CC5008416E9 /* DetailView of Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailView of Cards.swift"; sourceTree = "<group>"; };
 		CE92B7712ABA4D3D008416E9 /* Detail Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Detail Controller.swift"; sourceTree = "<group>"; };
 		CE92B7732ABA4DAB008416E9 /* Cell of Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell of Cards.swift"; sourceTree = "<group>"; };
+		CE92B7782ABA4E66008416E9 /* MainView for Card Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainView for Card Search.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				CE92B76F2ABA4CC5008416E9 /* DetailView of Cards.swift */,
 				CE92B7732ABA4DAB008416E9 /* Cell of Cards.swift */,
+				CE92B7782ABA4E66008416E9 /* MainView for Card Search.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE92B7792ABA4E66008416E9 /* MainView for Card Search.swift in Sources */,
 				CE92B7722ABA4D3D008416E9 /* Detail Controller.swift in Sources */,
 				CE92B7742ABA4DAB008416E9 /* Cell of Cards.swift in Sources */,
 				CE92B6DA2ABA3A7B008416E9 /* ViewController.swift in Sources */,
