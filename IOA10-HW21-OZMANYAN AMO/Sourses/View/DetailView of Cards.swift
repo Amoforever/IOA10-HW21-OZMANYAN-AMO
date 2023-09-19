@@ -8,7 +8,7 @@
 import UIKit
 
 class DetailView: UIView {
-
+    
     // MARK: - UI Elements
     lazy var nameLabel: UILabel = {
         let label = UILabel()
@@ -24,7 +24,7 @@ class DetailView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
-
+    
     // MARK: - Initializers
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -32,7 +32,7 @@ class DetailView: UIView {
         setupLayout()
         backgroundColor = .systemBlue
     }
-
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -52,7 +52,7 @@ class DetailView: UIView {
             descriptionLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
             descriptionLabel.rightAnchor.constraint(equalTo: rightAnchor, constant: -20),
             descriptionLabel.leftAnchor.constraint(equalTo: leftAnchor, constant: 20),
-    
+            
         ])
     }
 }

@@ -14,10 +14,10 @@ class DetailViewController: UIViewController {
             detailView.descriptionLabel.text = "\(detailsOfCard?.type ?? "") \n \(detailsOfCard?.manaCost ?? "") \n \(detailsOfCard?.cmc ?? 0)"
         }
     }
-
+    
     // MARK: - Ui Elements
     let detailView = DetailView()
-
+    
     // MARK: - Lifecycle
     override func loadView() {
         view = detailView

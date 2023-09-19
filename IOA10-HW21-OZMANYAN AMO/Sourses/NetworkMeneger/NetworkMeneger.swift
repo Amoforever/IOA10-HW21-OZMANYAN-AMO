@@ -23,7 +23,7 @@ class NetworkManager {
             }
         }
     }
-
+    
     func fetchImageForCell(urlImage: URL, completion: @escaping (Data) -> Void) {
         let request = AF.request(urlImage)
         request.responseData { data in
@@ -31,7 +31,7 @@ class NetworkManager {
             completion(imageData)
         }
     }
-
+    
     func fetchCardsByName(name: String, completion: @escaping (Result<[DataCards], Error>) -> Void) {
         let request = AF.request(urlCards)
         request.responseDecodable(of: Cards.self) { data in
