@@ -54,14 +54,62 @@
 		CE92B6D42ABA3A7A008416E9 /* IOA10-HW21-OZMANYAN AMO */ = {
 			isa = PBXGroup;
 			children = (
-				CE92B6D52ABA3A7A008416E9 /* AppDelegate.swift */,
-				CE92B6D72ABA3A7A008416E9 /* SceneDelegate.swift */,
-				CE92B6D92ABA3A7A008416E9 /* ViewController.swift */,
+				CE92B7682ABA4B36008416E9 /* Resourses */,
+				CE92B7672ABA4B33008416E9 /* Sourses */,
+			);
+			path = "IOA10-HW21-OZMANYAN AMO";
+			sourceTree = "<group>";
+		};
+		CE92B7672ABA4B33008416E9 /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				CE92B76C2ABA4B98008416E9 /* Controll */,
+				CE92B76B2ABA4B8E008416E9 /* View */,
+				CE92B76A2ABA4B7A008416E9 /* Model */,
+				CE92B7692ABA4B6A008416E9 /* App */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		CE92B7682ABA4B36008416E9 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
 				CE92B6DE2ABA3A7C008416E9 /* Assets.xcassets */,
 				CE92B6E02ABA3A7C008416E9 /* LaunchScreen.storyboard */,
 				CE92B6E32ABA3A7C008416E9 /* Info.plist */,
 			);
-			path = "IOA10-HW21-OZMANYAN AMO";
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		CE92B7692ABA4B6A008416E9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE92B6D52ABA3A7A008416E9 /* AppDelegate.swift */,
+				CE92B6D72ABA3A7A008416E9 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE92B76A2ABA4B7A008416E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE92B76B2ABA4B8E008416E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE92B76C2ABA4B98008416E9 /* Controll */ = {
+			isa = PBXGroup;
+			children = (
+				CE92B6D92ABA3A7A008416E9 /* ViewController.swift */,
+			);
+			path = Controll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
