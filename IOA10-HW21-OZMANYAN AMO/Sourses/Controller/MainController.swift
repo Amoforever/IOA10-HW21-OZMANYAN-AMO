@@ -8,7 +8,7 @@
 import UIKit
 
 class MainViewController: UIViewController {
-   // let networkManager = NetworkManager()
+    let networkManager = NetworkManager()
     var allCards = [DataCards]()
 
     // MARK: - Ui Elements

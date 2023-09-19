@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE92B6D62ABA3A7A008416E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B6D52ABA3A7A008416E9 /* AppDelegate.swift */; };
 		CE92B6D82ABA3A7A008416E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B6D72ABA3A7A008416E9 /* SceneDelegate.swift */; };
-		CE92B6DA2ABA3A7B008416E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B6D92ABA3A7A008416E9 /* ViewController.swift */; };
+		CE92B6DA2ABA3A7B008416E9 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B6D92ABA3A7A008416E9 /* MainController.swift */; };
 		CE92B6DF2ABA3A7C008416E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE92B6DE2ABA3A7C008416E9 /* Assets.xcassets */; };
 		CE92B6E22ABA3A7C008416E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE92B6E02ABA3A7C008416E9 /* LaunchScreen.storyboard */; };
 		CE92B76E2ABA4C5F008416E9 /* Model of Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B76D2ABA4C5F008416E9 /* Model of Cards.swift */; };
@@ -18,13 +18,14 @@
 		CE92B7742ABA4DAB008416E9 /* Cell of Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7732ABA4DAB008416E9 /* Cell of Cards.swift */; };
 		CE92B7772ABA4E17008416E9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE92B7762ABA4E17008416E9 /* Alamofire */; };
 		CE92B7792ABA4E66008416E9 /* MainView for Card Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7782ABA4E66008416E9 /* MainView for Card Search.swift */; };
+		CE92B77C2ABA4F4A008416E9 /* NetworkMeneger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B77B2ABA4F4A008416E9 /* NetworkMeneger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE92B6D22ABA3A7A008416E9 /* IOA10-HW21-OZMANYAN AMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOA10-HW21-OZMANYAN AMO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE92B6D52ABA3A7A008416E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE92B6D72ABA3A7A008416E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE92B6D92ABA3A7A008416E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE92B6D92ABA3A7A008416E9 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		CE92B6DE2ABA3A7C008416E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE92B6E12ABA3A7C008416E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE92B6E32ABA3A7C008416E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +34,7 @@
 		CE92B7712ABA4D3D008416E9 /* Detail Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Detail Controller.swift"; sourceTree = "<group>"; };
 		CE92B7732ABA4DAB008416E9 /* Cell of Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell of Cards.swift"; sourceTree = "<group>"; };
 		CE92B7782ABA4E66008416E9 /* MainView for Card Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainView for Card Search.swift"; sourceTree = "<group>"; };
+		CE92B77B2ABA4F4A008416E9 /* NetworkMeneger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMeneger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		CE92B7672ABA4B33008416E9 /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
+				CE92B77A2ABA4F0A008416E9 /* NetworkMeneger */,
 				CE92B76C2ABA4B98008416E9 /* Controller */,
 				CE92B76B2ABA4B8E008416E9 /* View */,
 				CE92B76A2ABA4B7A008416E9 /* Model */,
@@ -123,10 +126,18 @@
 		CE92B76C2ABA4B98008416E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CE92B6D92ABA3A7A008416E9 /* ViewController.swift */,
+				CE92B6D92ABA3A7A008416E9 /* MainController.swift */,
 				CE92B7712ABA4D3D008416E9 /* Detail Controller.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE92B77A2ABA4F0A008416E9 /* NetworkMeneger */ = {
+			isa = PBXGroup;
+			children = (
+				CE92B77B2ABA4F4A008416E9 /* NetworkMeneger.swift */,
+			);
+			path = NetworkMeneger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +218,9 @@
 			files = (
 				CE92B7792ABA4E66008416E9 /* MainView for Card Search.swift in Sources */,
 				CE92B7722ABA4D3D008416E9 /* Detail Controller.swift in Sources */,
+				CE92B77C2ABA4F4A008416E9 /* NetworkMeneger.swift in Sources */,
 				CE92B7742ABA4DAB008416E9 /* Cell of Cards.swift in Sources */,
-				CE92B6DA2ABA3A7B008416E9 /* ViewController.swift in Sources */,
+				CE92B6DA2ABA3A7B008416E9 /* MainController.swift in Sources */,
 				CE92B7702ABA4CC5008416E9 /* DetailView of Cards.swift in Sources */,
 				CE92B6D62ABA3A7A008416E9 /* AppDelegate.swift in Sources */,
 				CE92B76E2ABA4C5F008416E9 /* Model of Cards.swift in Sources */,

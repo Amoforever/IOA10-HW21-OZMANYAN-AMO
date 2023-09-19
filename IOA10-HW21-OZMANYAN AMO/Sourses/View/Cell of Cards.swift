@@ -9,7 +9,7 @@ import UIKit
 
 class CardCell: UITableViewCell {
     static let identifier = "cardCell"
-    //let networkManager = NetworkManager()
+    let networkManager = NetworkManager()
 
     var cards: DataCards? {
         didSet {
