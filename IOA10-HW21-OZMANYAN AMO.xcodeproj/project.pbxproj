@@ -15,6 +15,8 @@
 		CE92B76E2ABA4C5F008416E9 /* Model of Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B76D2ABA4C5F008416E9 /* Model of Cards.swift */; };
 		CE92B7702ABA4CC5008416E9 /* DetailView of Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B76F2ABA4CC5008416E9 /* DetailView of Cards.swift */; };
 		CE92B7722ABA4D3D008416E9 /* Detail Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7712ABA4D3D008416E9 /* Detail Controller.swift */; };
+		CE92B7742ABA4DAB008416E9 /* Cell of Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7732ABA4DAB008416E9 /* Cell of Cards.swift */; };
+		CE92B7772ABA4E17008416E9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE92B7762ABA4E17008416E9 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		CE92B76D2ABA4C5F008416E9 /* Model of Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model of Cards.swift"; sourceTree = "<group>"; };
 		CE92B76F2ABA4CC5008416E9 /* DetailView of Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailView of Cards.swift"; sourceTree = "<group>"; };
 		CE92B7712ABA4D3D008416E9 /* Detail Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Detail Controller.swift"; sourceTree = "<group>"; };
+		CE92B7732ABA4DAB008416E9 /* Cell of Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell of Cards.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE92B7772ABA4E17008416E9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				CE92B76F2ABA4CC5008416E9 /* DetailView of Cards.swift */,
+				CE92B7732ABA4DAB008416E9 /* Cell of Cards.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +142,9 @@
 			dependencies = (
 			);
 			name = "IOA10-HW21-OZMANYAN AMO";
+			packageProductDependencies = (
+				CE92B7762ABA4E17008416E9 /* Alamofire */,
+			);
 			productName = "IOA10-HW21-OZMANYAN AMO";
 			productReference = CE92B6D22ABA3A7A008416E9 /* IOA10-HW21-OZMANYAN AMO.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +173,9 @@
 				Base,
 			);
 			mainGroup = CE92B6C92ABA3A7A008416E9;
+			packageReferences = (
+				CE92B7752ABA4E17008416E9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = CE92B6D32ABA3A7A008416E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -192,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE92B7722ABA4D3D008416E9 /* Detail Controller.swift in Sources */,
+				CE92B7742ABA4DAB008416E9 /* Cell of Cards.swift in Sources */,
 				CE92B6DA2ABA3A7B008416E9 /* ViewController.swift in Sources */,
 				CE92B7702ABA4CC5008416E9 /* DetailView of Cards.swift in Sources */,
 				CE92B6D62ABA3A7A008416E9 /* AppDelegate.swift in Sources */,
@@ -402,6 +414,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE92B7752ABA4E17008416E9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE92B7762ABA4E17008416E9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE92B7752ABA4E17008416E9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE92B6CA2ABA3A7A008416E9 /* Project object */;
 }
