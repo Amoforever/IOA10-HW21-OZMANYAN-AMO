@@ -14,6 +14,7 @@
 		CE92B6E22ABA3A7C008416E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE92B6E02ABA3A7C008416E9 /* LaunchScreen.storyboard */; };
 		CE92B76E2ABA4C5F008416E9 /* Model of Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B76D2ABA4C5F008416E9 /* Model of Cards.swift */; };
 		CE92B7702ABA4CC5008416E9 /* DetailView of Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B76F2ABA4CC5008416E9 /* DetailView of Cards.swift */; };
+		CE92B7722ABA4D3D008416E9 /* Detail Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7712ABA4D3D008416E9 /* Detail Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE92B6E32ABA3A7C008416E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE92B76D2ABA4C5F008416E9 /* Model of Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model of Cards.swift"; sourceTree = "<group>"; };
 		CE92B76F2ABA4CC5008416E9 /* DetailView of Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailView of Cards.swift"; sourceTree = "<group>"; };
+		CE92B7712ABA4D3D008416E9 /* Detail Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Detail Controller.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,7 @@
 		CE92B7672ABA4B33008416E9 /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
-				CE92B76C2ABA4B98008416E9 /* Controll */,
+				CE92B76C2ABA4B98008416E9 /* Controller */,
 				CE92B76B2ABA4B8E008416E9 /* View */,
 				CE92B76A2ABA4B7A008416E9 /* Model */,
 				CE92B7692ABA4B6A008416E9 /* App */,
@@ -110,12 +112,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		CE92B76C2ABA4B98008416E9 /* Controll */ = {
+		CE92B76C2ABA4B98008416E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				CE92B6D92ABA3A7A008416E9 /* ViewController.swift */,
+				CE92B7712ABA4D3D008416E9 /* Detail Controller.swift */,
 			);
-			path = Controll;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE92B7722ABA4D3D008416E9 /* Detail Controller.swift in Sources */,
 				CE92B6DA2ABA3A7B008416E9 /* ViewController.swift in Sources */,
 				CE92B7702ABA4CC5008416E9 /* DetailView of Cards.swift in Sources */,
 				CE92B6D62ABA3A7A008416E9 /* AppDelegate.swift in Sources */,
