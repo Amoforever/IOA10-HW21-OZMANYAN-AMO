@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+struct Cards: Decodable {
+    let cards: [DataCards]
+}
+
+struct DataCards: Decodable {
+    let name: String?
+    let cmc: Int?
+    let manaCost: String?
+    let type: String?
+}
